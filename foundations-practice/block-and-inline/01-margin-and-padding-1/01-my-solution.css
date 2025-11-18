@@ -1,0 +1,33 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.one {
+  background: pink;
+  border: 3px solid blue;
+  /* CHANGE ME */
+  padding: 32px;
+  margin: 12px;
+}
+
+.two {
+  background: lightblue;
+  border: 3px solid purple;
+  /* CHANGE ME */
+  margin-bottom: 48px;
+}
+
+.three {
+  background: peachpuff;
+  border: 3px solid brown;
+  width: 200px;
+  /* CHANGE ME */
+  padding: 32px;
+  /* wrong answer */
+  /* margin-left: 330px; */
+
+  /* answer */
+  /* ruang tersisa di kiri ambil semua. maka box/content nya akan alignment ke kanan dan sebaliknya */
+  margin-left: auto;
+}
